@@ -16,10 +16,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{474028AA-EC0B-43EC-9D28-447A176CD88E}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		local-tool-install.sh = local-tool-install.sh
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{8542B1BC-9E14-43C5-9B91-B3673F9867E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyDigraph.Tool", "AssemblyDigraph.Tool\AssemblyDigraph.Tool.csproj", "{5AAA588F-1220-4478-9A09-3DD0CE46FBAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +46,10 @@ Global
 		{8542B1BC-9E14-43C5-9B91-B3673F9867E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8542B1BC-9E14-43C5-9B91-B3673F9867E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8542B1BC-9E14-43C5-9B91-B3673F9867E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAA588F-1220-4478-9A09-3DD0CE46FBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAA588F-1220-4478-9A09-3DD0CE46FBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAA588F-1220-4478-9A09-3DD0CE46FBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAA588F-1220-4478-9A09-3DD0CE46FBAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +59,7 @@ Global
 		{34E1F68F-4108-43C7-A2D9-61E381570792} = {EF75F769-8B0A-433D-B062-9E33792EDCDC}
 		{B00EC3D0-1784-43DE-A53A-5B4D864F6748} = {F02BD1A9-1F92-42D7-B683-2CA82F2CEF02}
 		{8542B1BC-9E14-43C5-9B91-B3673F9867E2} = {EF75F769-8B0A-433D-B062-9E33792EDCDC}
+		{5AAA588F-1220-4478-9A09-3DD0CE46FBAF} = {EF75F769-8B0A-433D-B062-9E33792EDCDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BFCD426-694E-49A5-8F30-F8B037384E95}
