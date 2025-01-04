@@ -1,8 +1,8 @@
-﻿using SampleProject.Quantum;
-using SampleProject.Calculators;
+﻿using SampleApp.Quantum;
+using SampleApp.Calculators;
 using System.Numerics;
 
-namespace SampleProject.QuantumServices;
+namespace SampleApp.QuantumServices;
 
 public class QuantumService
 {

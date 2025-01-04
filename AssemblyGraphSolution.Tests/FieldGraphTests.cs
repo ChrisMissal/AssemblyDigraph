@@ -43,10 +43,7 @@ public class FieldGraphTests
         var assemblies = new[] { Assembly.GetExecutingAssembly() };
 
         // Act
-        var graph = assemblies.ToDigraph(config =>
-        {
-            //config.IncludeNonPublicTypes = false; // Exclude non-public types
-        });
+        var graph = assemblies.ToDigraph();
 
         // Assert
         graph.GetEdges().Should().NotContain(edge => edge.From == typeof(SampleClassWithFields) && edge.To == typeof(int),

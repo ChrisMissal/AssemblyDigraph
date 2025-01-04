@@ -1,4 +1,4 @@
-﻿namespace SampleProject.Quantum;
+﻿namespace SampleApp.Quantum;
 
 public class Atom
 {

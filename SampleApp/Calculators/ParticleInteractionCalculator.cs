@@ -1,4 +1,4 @@
-﻿namespace SampleProject.Calculators;
+﻿namespace SampleApp.Calculators;
 
 public class ParticleInteractionCalculator
 {

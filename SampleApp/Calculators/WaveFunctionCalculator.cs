@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace SampleProject.Calculators;
+namespace SampleApp.Calculators;
 
 public class WaveFunctionCalculator
 {
