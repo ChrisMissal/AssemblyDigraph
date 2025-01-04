@@ -1,0 +1,76 @@
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio specific
+.vs/
+.vscode/
+.idea/
+
+# Rider specific
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Project-specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# DotNet-specific
+*.pidb
+*.ilk
+*.pdb
+*.aps
+*.suo
+*.xuser
+*.rsuser
+*.sln.docstates
+.vscode/
+.vs/
+TestResults/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+.idea/**/modules.xml
+
+# Resharper
+*.DotSettings.user
+_ReSharper/
